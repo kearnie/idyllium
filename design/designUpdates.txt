@@ -1,0 +1,23 @@
+idyllium by kearnie lin.
+
+from the start, i intended my project to be handled by a UI of buttons that
+subsequently toggled certain attributes that the user would control. 
+because of earlier coding practices and convenience, i handled a lot of the 
+manipulation through arbitrary keypresses (also because i did not learn
+pygame enough yet to implement interactables and mousepresses); however,
+because i did not want the user to have to press so many different keys, 
+i limited the keyboard to just the up and down arrow keys, but depending
+on the button that was toggled, do different things. so essentially, the up
+key can now increase light concentration, increase rain/snow pour, or increase
+temperature. i aligned the buttons on the top right, out of the way of the 
+main interface, and included what i thought were notable details on the top 
+left, such as temperature (to determine leaf color, falling chances, and
+type of precipitation), and the windspeed and direction (which changes the 
+paths of falling leaves). 
+
+i handled these from the advice of students from the project-sharing event
+during tuesday's lecture, who all preferred a less complicated user experience
+for handling the environment changes. althought i just was not finished on
+tuesday yet, they also suggested me make a help and splash screen so that the
+user can know which things to control and how rather than me vocally 
+instructing them. 

@@ -1,0 +1,41 @@
+flower class
+event x event y: *******
+- draw fxn (takes in time)
+- from origin: (0,0) top petal to (0,2t)
+t is time grows ^ to grow larger 
+
+-making flowers
+-5/100 chance worm on leaves curve with collision box
+check collision -> click on worm
+every timer fired -> check if user clicked 
+
+bags -> what u have collected (?) 
+grab worm out -> feed birds 
+
+trunk: draw random polygons sticking out of trunk from under 
+
+****THURSDAY NIGHT 4:30 PM DEADLINE 
+SUBMIT WEDNESDAY 12:00 AM FIRST
+
+- very tree trunk make polygons show
+- maybe add texture to tree
+- splash screen and instructions screen omg
+- real time
+- splash screen; instructions
+
+done:
+- change leaf colors with temperature
+- implement berries randomly
+- fix birds so they look more natural
+- bg music, rain sounds when raining
+- change falling prob with temperature
+- implement flowers on click
+- implement wind(?)
+- click on berries to collect in inventory
+- birds that receive berries fly off screen
+- fix day night cycle
+- implement buttons
+- anti alias the light beams (and maybe everything else?)
+- click inventory icon to obtain berries and drag or click to birds
+
+

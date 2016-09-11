@@ -1,0 +1,89 @@
+04/09: 3 hrs
+- learned pygame through tutorials/readings 
+- tinkered with Lukas' pygame frameworks 
+- sketched stencil layouts of background gradient and tree 
+- loaded images onto a test framework through pygame
+
+04/10: 3 hrs
+- continued familiarizing myself with pygame
+- researched various methods to constuct main tree 
+- attempted to create tree tests through fractals 
+- started storyboarding
+
+04/11: 5 hrs
+- continued familiarizing myself with pygame, in particular: sprites, groups
+- successfully coded test rain and snow through sprites so that it falls 
+  and increases with the up key and decreases with the down key 
+- explored alternatives to drawing tree (perhaps as a repeated 'branch' object)
+- finished storyboarding 
+- finished project proposal 
+- started competitive anaylsis 
+
+04/12: 2 hrs
+- finished competitive analysis
+- implemented temporary keypress temperature aspect to manipulate type of
+  precipitation (temp>32: rain, temp<32: snow)
+- rainfall can now freeze into snow and snow can melt into rainfall when 
+  temperature is changed by the user
+
+04/14: 2 hrs
+- implemented lightbeams with changeable strength through keypress
+
+04/15: 2 hrs
+- implemented birds as new sprite (appears as twitter icons for now)
+- birds can be spawn with keypresses and change flight direction randomly
+
+04/17: 4 hrs
+- tinkered with upscrolling methods
+- sidescroll demo, camera object, generator object
+
+04/18: 5 hrs
+- implemented camera and generator objects to mimic upscrolling
+- organized code into separate files to be imported, established world object
+
+04/19: 6 hrs
+- developed growing tree with upscrolling 
+- changed treebranches into gameobject
+- drew tree as random fractals of branches from main trunk based on differences
+  in angles, thicknesses, lengths
+- imported pygame.gfxdraw to draw antialiased lines for branches, converted
+  initial lines into filled polygons to be rendered through function found on 
+  stackoverflow
+
+04/20: 4 hrs
+- created leaf sprite to be grown on branches with random location and rotation 
+- created test code so far to randomly add leaves
+  (have to improve branch placement, and implement falling action)
+- created time shade cover to suggest day/nighttime cycles 
+- created test code to transition through gradual day/nighttime cycles
+
+04/21: 3 hrs
+- learned event/pos attributes in pygame
+- created flower class 
+
+04/23: 3 hrs
+- implemented flowers to be generated through click-on branches 
+- implemented the berries class to grow berries randomly along branches
+- changed leaf-falling probability to work with lower temperature
+- improved leaf update so that fallen orange leaves to not turn back green 
+
+04/24: 5 hrs
+- created inventory structure 
+- created buttons structure/UI template to start removing keypresses
+
+04/25: 8 hrs
+- finished UI: drew splash screen, buttons, and icons
+- drew for frames for birds so that they're animated and can flap wings
+- created interactable structure
+- implmented collect berry feature; store them in inventory; and to feed birds
+- implemented wind (random) to move falling leaves in x-direction
+
+//intervention because la prima almost killed me//
+
+04/30: 6 hrs
+- implemented splash screen and instruction screen
+- added background music, rain audio, snow audio
+- made term project video
+- finished last design document
+
+Total time spent so far: 61 hrs
